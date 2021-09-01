@@ -1,0 +1,124 @@
+<html>
+<head>
+    
+	<title>Alanishj Pagina Web</title>
+	<link rel="stylesheet" type="text/css" href="codigo.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+	<meta charset="utf-8">
+    
+</head>
+<body>
+    
+    <section class="seccion1">
+        <header>
+            <h1 style="background-color: DodgerBlue;">Bienvenido</h1>
+        </header>
+        
+    </section>
+
+              <div class="columnah2" >
+                <h2>
+                    Sobre mi: <b> soy estudiante de programacion para Front-end por mi cuenta.  Hace varios a años que vengo trabajando en hardware, trabajando en armado de pc,optimizaciones de windows via scripts, backups, etc..
+                        Hace ya algunos meses que me decidi aprender a programar por mi cuenta (lo que mi impulso en si a estudiar dicha carrea fue el entorno en el cual estoy dia a dia, hablo de amigos IT,Programadores o en Base de Datos)</b></br>
+                </h2>
+                <p>Datos sobre mi: fui jugador de esports durante varios años, gane varios torneos remunerados, tuve contratos de equipos conocidos en LATAM, actualmente esto es un hobbie.</p>
+
+                <div class="twitterfollowbutton" >
+                   <ol> <a href="https://twitter.com/Alanshj?ref_src=twsrc%5Etfw" target="_BLANK" class="buttontw"  data-lang="es" 
+                        data-dnt="true" data-show-count="false">Twitter</a></ol><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                <div class="instagramfollowbutton" >
+                   <ol> <a href="https://www.instagram.com/alanishj/" target="_BLANK" class="buttonin"  data-lang="es" 
+                        data-dnt="true" data-show-count="false">Instagram</a></ol><script async src="https://platform.instagram.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                <div class="githubbutton" >
+                    <ol> <a href="https://github.com/alanishjz" target="_BLANK" class="buttongit"  data-lang="es" 
+                         data-dnt="true" data-show-count="false">Github</a></ol><script async src="https://platform.github.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                </div>
+
+
+
+
+	<script src="codigo.js"></script>
+</body>
+</html>
+
+// CSS
+
+        * {
+            font-family: 'Lobster', cursive;
+            font-weight: 100;
+        }
+        
+        body {
+           background-size: 100%;
+           background-color:rgb(55, 55, 55);
+           overflow-x: hidden;
+           
+  
+        }
+        .seccion1 {
+            color:rgb(65, 65, 65);
+            font-size: 20px;
+            text-align: center;
+        }
+        .columnah2 {
+            font-size: 15px;
+            width:40vh;
+            height: 700px;
+            margin: auto;
+            background-color: rgb(197, 197, 197);
+            border: none;
+            border-radius: 4%;
+            text-align: center; 
+        }
+
+        .buttontw {
+        background-color: rgb(0, 176, 235);
+        border: none;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        padding: 15px;
+        margin: 10px 10px;
+        cursor: pointer;
+        box-shadow: 2px 3px 5px ;
+        }
+            .buttonin {
+        background-color: rgb(219, 18, 85);
+        border: none;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        padding: 15px;
+        margin: 10px 10px;
+        cursor: pointer;
+        box-shadow: 2px 3px 5px ;
+        }
+        .buttongit {
+            background-color: rgb(66, 66, 66);
+            border: none;
+            color: rgb(0, 0, 0); 
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            font-size: 20px;
+            padding: 15px;
+            margin: 10px 10px;
+            cursor: pointer;
+            box-shadow: 2px 3px 5px ;
+            }
+
+.buttontw {border-radius: 5%;}
+.buttonin {border-radius: 5%;}
+.buttongit {border-radius: 5%;}
+
+// JAVA
